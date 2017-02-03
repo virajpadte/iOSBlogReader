@@ -13,6 +13,8 @@
 		554BC8D41E43BA0200311DE4 /* Blogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 554BC8D21E43BA0200311DE4 /* Blogger.xcdatamodeld */; };
 		554BC8D61E43BA0200311DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554BC8D51E43BA0200311DE4 /* Assets.xcassets */; };
 		554BC8D91E43BA0200311DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554BC8D71E43BA0200311DE4 /* LaunchScreen.storyboard */; };
+		554BC8E11E43BAAE00311DE4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BC8E01E43BAAE00311DE4 /* TableViewController.swift */; };
+		554BC9061E44FF3900311DE4 /* configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554BC9051E44FF3900311DE4 /* configuration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		554BC8D51E43BA0200311DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		554BC8D81E43BA0200311DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554BC8DA1E43BA0200311DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554BC8E01E43BAAE00311DE4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		554BC9051E44FF3900311DE4 /* configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configuration.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				554BC8D71E43BA0200311DE4 /* LaunchScreen.storyboard */,
 				554BC8DA1E43BA0200311DE4 /* Info.plist */,
 				554BC8D21E43BA0200311DE4 /* Blogger.xcdatamodeld */,
+				554BC8E01E43BAAE00311DE4 /* TableViewController.swift */,
+				554BC9051E44FF3900311DE4 /* configuration.plist */,
 			);
 			path = Blogger;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				554BC8D91E43BA0200311DE4 /* LaunchScreen.storyboard in Resources */,
+				554BC9061E44FF3900311DE4 /* configuration.plist in Resources */,
 				554BC8D61E43BA0200311DE4 /* Assets.xcassets in Resources */,
 				554BC8D11E43BA0200311DE4 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +149,7 @@
 				554BC8CE1E43BA0200311DE4 /* ViewController.swift in Sources */,
 				554BC8CC1E43BA0200311DE4 /* AppDelegate.swift in Sources */,
 				554BC8D41E43BA0200311DE4 /* Blogger.xcdatamodeld in Sources */,
+				554BC8E11E43BAAE00311DE4 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				554BC8DF1E43BA0200311DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
